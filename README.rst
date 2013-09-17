@@ -3,7 +3,9 @@
 Introduction
 ============
 
-https://travis-ci.org/tisto/plonesocial.messaging.png?branch=master
+.. image:: https://travis-ci.org/tisto/plonesocial.messaging.png?branch=master
+    :target: http://travis-ci.org/tisto/plonesocial.messaging
+
 
 plonesocial.messaging provides a base to send private messages between plone
 users. The messages are stored in a seperate tree outside the user folders
