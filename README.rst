@@ -9,7 +9,9 @@ Introduction
 
 plonesocial.messaging provides a base to send private messages between plone
 users. The messages are stored in a seperate tree outside the user folders
-and are not plone content for performance reasons. This packages provides only the building block without a integration to plone.
+and are not plone content for performance reasons.
+
+This packages provides only the building block without integration to plone.
 
 The functionality provided is:
 
@@ -68,7 +70,7 @@ not read yet
     1
     >>> conversation.username
     'Bob'
- 
+
 Messages are returned in an iterable that yields its itmes, not in a
 real list. So we iterate over the messages to get the content
 
